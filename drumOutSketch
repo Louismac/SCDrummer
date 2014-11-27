@@ -11,18 +11,13 @@ Put the class DrumOut.sc in your SuperCollider class library (Platform.userExten
 Run this code in SuperCollider
 
 //Make an instance, it will automatically find an arduino if one is attached
-
 ~drumBot=DrumOut.new(nil,nil)
 
 //Add an arm (name, arduinoPin, strikeRate)
-
-//The strikeRate is how long the solenoid is turned on before being turned off again
-
 ~drumBot.addArm(\drum1,13,0.5)
 
-//Change the strike rate
+//Change the strike rate ( how long the solenoid is turned on before being turned off again )
 ~drumBot.setSL(\drum1,0.1)
 
 //Trigger the drum
-
 ~drumBot.strike(\drum1)
