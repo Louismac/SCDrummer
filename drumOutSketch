@@ -4,7 +4,7 @@ This project is a wrapper to allow you to trigger a solenoid powered mechanical 
 
 The assumption is that your solenoid is triggered by a transistor or relay that is connected to a digital out on the Arduino board
 
-Load the sketch drumOut onto your Arduino
+Load the sketch drumOut.ino onto your Arduino
 
 Put the class DrumOut.sc in your SuperCollider class library (Platform.userExtensionDir) and recompile the library
 
