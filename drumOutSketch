@@ -20,6 +20,9 @@ Run this code in SuperCollider
 
 ~drumBot.addArm(\drum1,13,0.5)
 
+//Change the strike rate
+~drumBot.setSL(\drum1,0.1)
+
 //Trigger the drum
 
 ~drumBot.strike(\drum1)
